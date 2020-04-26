@@ -1,0 +1,99 @@
+html{
+  font-size: 26px;
+  background: darkslateblue;
+}
+.nav-link{
+  position: fixed;
+  text-align: right;
+  top: 0;
+  left: 0;
+  background: red;
+  padding: 20px;
+  width: 100%;
+}
+.nav-link > a{
+  padding: 20px 50px;
+  text-decoration: none;
+  color: black;
+}
+.nav-link > a:hover{
+  background: yellow;
+}
+.about{
+  color: white;
+  padding: 200px 0;
+  text-align: center;
+  background: darkblue;
+}
+.about > p{
+  color: yellow;
+}
+.work > h1{
+  text-align: center;
+  color: white;
+}
+.projects-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  width: 400px;
+  height: 400px;
+}
+.projects-links > *{
+  margin: 1em 0;
+}
+.projects-links > .project{
+  width: 400px;
+  height: 450px;
+  border: 1px solid black;
+  background: #303841;
+  text-align: center;
+}
+.title{
+  margin-top: 0;
+  color: white;
+  text-align: center;
+}
+.projects-links > .project > a{
+  color: white;
+  text-decoration: none;
+}
+.contact{
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+}
+.contact-links > a{
+  text-decoration: none;
+  padding: 0 20px;
+  color: white;
+}
+.contact-links > a:hover{
+  font-size: 30px;
+  transition-duration: 0.5s;
+  font-size: 30px;
+}
+footer{
+  text-align: right;
+  font-size: 14px;
+  padding: 20px 50px;
+}
+@media screen and (max-width: 480px){
+  .nav-link{
+    padding: 10px 0;
+    text-align: center;
+  }
+  .nav-link > a{
+    padding: 0 10px;
+  }
+.projects-links{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ } 
